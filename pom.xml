@@ -37,9 +37,9 @@
     </licenses>
     
     <scm>
-        <connection>scm:git:https://github.com/lbruun/AWSIAMAuthToken.git</connection>
-        <developerConnection>scm:git:https://github.com/lbruun/AWSIAMAuthToken.git</developerConnection>
-        <url>https://github.com/lbruun/AWSIAMAuthToken</url>
+        <connection>scm:git:https://github.com/lbruun/AWS-RDS-IAM-Tokens.git</connection>
+        <developerConnection>scm:git:https://github.com/lbruun/AWS-RDS-IAM-Tokens.git</developerConnection>
+        <url>https://github.com/lbruun/AWS-RDS-IAM-Tokens</url>
     </scm>    
 
  
