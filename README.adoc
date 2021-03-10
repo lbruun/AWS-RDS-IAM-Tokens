@@ -11,8 +11,8 @@ endif::[]
 
 
 image:https://img.shields.io/badge/License-Apache%202.0-blue.svg[link="http://www.apache.org/licenses/LICENSE-2.0",target=_blank]
-image:https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser/badge.svg[link="https://maven-badges.herokuapp.com/maven-central/cz.jirutka.rsql/rsql-parser"]
-image:https://javadoc.io/badge2/org.springframework/spring-core/javadoc.svg[javadoc,link="https://javadoc.io/doc/net.lbruun.aws/rds-iam-auth-token/1.0.0"]
+image:https://maven-badges.herokuapp.com/maven-central/net.lbruun.aws/rds-iam-auth-token/badge.svg[link="https://maven-badges.herokuapp.com/maven-central/net.lbruun.aws/rds-iam-auth-token"]
+image:https://javadoc.io/badge2/net.lbruun.aws/rds-iam-auth-token/javadoc.svg[javadoc,link="https://javadoc.io/doc/net.lbruun.aws/rds-iam-auth-token"]
 
 
 Generates tokens which can be used as passwords when connecting to an AWS RDS instance with
