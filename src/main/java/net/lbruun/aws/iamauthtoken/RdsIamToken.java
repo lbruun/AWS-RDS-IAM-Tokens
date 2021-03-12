@@ -20,7 +20,9 @@ import java.time.Instant;
 import java.util.Objects;
 
 /**
- * Encapsulation of an RDS IAM Token.
+ * Encapsulation of an RDS IAM Token. It is the result from the
+ * {@link RdsIamTokenGenerator#getRdsIamToken(net.lbruun.aws.iamauthtoken.RdsIamTokenGenerator.Parameters) 
+ * RdsIamTokenGenerator#getRdsIamToken()} method.
  * 
  * <p>
  * The class encapsulates the {@link #getToken() token itself} as well as

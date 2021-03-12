@@ -43,10 +43,11 @@ visible in the environment's parameters thus nothing to 'steal'.
 {nbsp} +
 
 TIP: Generating a token is a purely local process. It doesn't involve any network traffic. It does, 
-however, involve some fairly lightweight cryptograhpic calculations, typically less than 1 millisecond. 
-Since the token is valid for 15 minutes there's no point in repeatedly generating the same token until it 
-is really necessary to generate a new token. For this reason the library includes constructs which
-makes it easier to cache the result, although the library does not itself include a cache implementation.
+however, involve some fairly lightweight cryptograhpic calculations. Generating a token typically 
+require less than 1 millisecond. Since the token is valid for 15 minutes there's no point in repeatedly 
+generating the same token until it is really necessary to generate a new token. For this reason the
+library includes constructs which makes it easier to cache the result, although the library does not
+itself include a cache implementation.
 
 {nbsp} +
 
