@@ -75,6 +75,9 @@ public class RdsIamTokenGenerator {
     private static final DateTimeFormatter D_FORMAT = 
             DateTimeFormatter.ofPattern("yyyyMMdd").withZone(ZoneId.from(ZoneOffset.UTC));
 
+    private RdsIamTokenGenerator() {
+    }
+    
     /**
      * Generates a token which can be used as password when connecting to the
      * RDS instance.
